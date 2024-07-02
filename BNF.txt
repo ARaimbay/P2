@@ -1,0 +1,6 @@
+<program> ::= <if_statement> | <statement> | <program> <if_statement> | <program> <separator> <statement>
+<statement> ::= <expression>
+<if_statement> ::= "if" "("<expression> ")" "{" <statement> "}" "else" "{" <statement> "}"
+<separator> ::= "\n" | ";"
+<expression> ::= 
+<print_statement> ::= "print" []
